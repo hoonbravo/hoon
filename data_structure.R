@@ -75,8 +75,8 @@ matrix[1,2]
 matrix[1:2]
 matrix[1,] #첫번째 row의 모든 원소를 추출
 matrix[,1] #첫번째 col의 모든 원소를 추출
-matrix[c(1,2),] #1,2번째 row의 모든 원소를 추출
-matrix[1,2]=100
+matrix[c(1,2),] #1,2번째 row의 모든 원소를 추출z
+matrix[1,2]<-100
 matrix
 
 #array : matrix를 여러층으로 쌓은것
